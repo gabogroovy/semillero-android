@@ -1,6 +1,7 @@
 package com.google.codelabs.mdc.kotlin.shrine
 
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
   //Modificando
@@ -37,6 +38,6 @@ class MainActivity : AppCompatActivity(), NavigationHost {
     }
 
     fun fernandoRamaCambio(){
-
+        Log.i("Fernando", "Prueba")
     }
 }
