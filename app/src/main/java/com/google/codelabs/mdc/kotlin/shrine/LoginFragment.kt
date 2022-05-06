@@ -46,4 +46,8 @@ class LoginFragment : Fragment() {
     private fun isPasswordValid(text: Editable?): Boolean {
         return text != null && text.length >= 8
     }
+
+    private fun miramaFun(){
+
+    }
 }
